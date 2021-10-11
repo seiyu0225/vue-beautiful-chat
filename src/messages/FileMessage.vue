@@ -3,12 +3,6 @@
     <div class="sc-message--file-name" :style="messageColors">
       <a :href="data.file.url ? data.file.url : '#'" target="_blank">{{ data.file.name || '' }}</a>
     </div>
-    <div class="sc-message--file-text" :style="messageColors">
-      {{ data.text }}
-      <p v-if="data.meta" class="sc-message--meta" :style="messageColors">
-        {{ data.meta }}
-      </p>
-    </div>
   </div>
 </template>
 
