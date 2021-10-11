@@ -4,7 +4,7 @@
       <a :href="data.file.url ? data.file.url : '#'" target="_blank">{{ data.file.name || '' }}</a>
     </div>
     <div class="sc-message--file-text" :style="messageColors">
-      {{ data.text }} aaaaaaaaaaaa
+      {{ data.text }}
       <p v-if="data.meta" class="sc-message--meta" :style="messageColors">
         {{ data.meta }}
       </p>
