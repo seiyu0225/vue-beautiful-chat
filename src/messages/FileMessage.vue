@@ -1,8 +1,5 @@
 <template>
   <div class="sc-message--file" :style="messageColors">
-    <div class="sc-message--file-icon">
-      <img :src="data.file.url" class="sc-image" />
-    </div>
     <div class="sc-message--file-name" :style="messageColors">
       <a :href="data.file.url ? data.file.url : '#'" target="_blank">{{ data.file.name || '' }}</a>
     </div>
