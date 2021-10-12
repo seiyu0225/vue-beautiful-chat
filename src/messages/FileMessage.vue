@@ -1,7 +1,7 @@
 <template>
   <div class="sc-message--file" :style="messageColors">
     <div class="sc-message--file-text" :style="messageColors">
-      <a :href="data.file.url ? data.file.url : '#'" target="_blank">{{ data.file.name || '' }}</a>
+      <a target="_blank" :href="data.file.url ? data.file.url : '#'">{{ data.file.name || '' }}</a>
     </div>
   </div>
 </template>
